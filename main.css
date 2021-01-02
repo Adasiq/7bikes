@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+   scroll-behavior: smooth;
+}
+#headerWrap{
+   position: fixed;
+
+   height: 100px;
+
+   background: #EEF0F0;
+   box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.1);
+
+   z-index: 0;
+}
+
+header{
+   display: flex;
+
+   width: 80%;
+   height: 100px;
+
+   align-items: center;
+   justify-content: flex-start;
+}
+
+header > h1{
+   margin-left: 45px;
+
+   font-family: Pacifico;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 34px;
+}
+
+#bannerWrap{
+
+   height: 555px;
+
+   padding-top: 100px;
+
+   z-index: 1;
+   background: #EEF0F0;
+}
+.wrapper{
+   display: flex;
+
+   align-items: center;
+   justify-content: center;
+
+   width: 100%;
+
+   margin: 0px;
+   padding: 0px;
+}
+
+#banner{
+   display: flex;
+
+   align-items: center;
+   justify-content: center;
+
+   width: 80%;
+   height: 555px;
+}
+
+#lubeProdWrapper{
+   height: 545px;
+   background-color: #fff;
+   }
+
+#lubeProd{
+   display: flex;
+   width: 80%;
+
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+
+   height: 545px;
+}
+
+#lubeProd > h2{
+   margin-top: 45px;
+   margin-bottom: 32px;
+
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 26px;
+   line-height: 35px;
+}
+
+#lubeProd>p{
+   margin-top: 32px;
+   margin-bottom: 5px;
+
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 26px;
+   line-height: 35px;
+}
+
+.slider > p{
+   margin-top: 50px;
+
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 35px;
+}
+
+.slider{
+   display: flex;
+   justify-content: space-between;
+   width: 50%;
+
+   margin-top: 40px;
+   height: 260px;
+   transition-duration: 0.3s;
+}
+
+.slider > img{
+   margin: 30px 70px 0px 30px;
+
+   width: 109px;
+   height: 200px;
+}
+
+#footerWrap{
+   margin-top: 100px;
+   background-color: #EE4B24;
+}
+
+footer{
+   display: flex;
+   width: 80%;
+
+   height: 100px;
+
+   align-items: center;
+   justify-content: flex-start;
+
+   background-color: #EE4B24;
+   color: #EEF0F0;
+
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 24px;
+}
+
+.lubeBtn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   background-color: #fff;
+}
+
+.lubeBtn > img{
+   width: 30px;
+   transition-duration: 0.15s;
+}
+.sizeUp{
+   width: 50px;
+}
